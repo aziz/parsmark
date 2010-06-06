@@ -1,0 +1,42 @@
+@import url(mmd.css);
+
+body {
+  font: 14px/1.75em  "xb kayhan", "b mitra", arial, "Times New Roman", serif;
+  font-size: 1em;
+  direction: rtl;
+  text-align: right;
+  width: 48em;
+  margin: 20px auto;
+  padding:30px 50px;
+  border:1px solid #ccc;
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#888888'); /* IE6, IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#888888')"; /* IE8 */
+  -moz-box-shadow: 0 0 12px #888888; /* FF3.5+ */
+  -webkit-box-shadow: 0 0 12px #888888; /* Saf3+, Chrome */
+  box-shadow: 0 0 12px #888888; /* Standard. Opera 10.5, IE9 */
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "xb kayhan", "b mitra", arial, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: right; 
+}
+
+ol li  { 
+  list-style-type: arabic-indic;
+  list-style-type: persian;
+}
+
+.bibliography > p {
+  font-family: "xb kayhan", "b mitra", arial, "Times New Roman", serif;
+}
+
+pre {
+  text-align: left;
+  direction: ltr;
+  font-family: "courier new","DejaVu Sans Mono",monaco,courier;
+}
+
+code {
+  font-family: "courier new","DejaVu Sans Mono",monaco,courier;
+}

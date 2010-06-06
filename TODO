@@ -1,0 +1,24 @@
+CSS:    mmd.css
+
+# BUGS: #
+
+1. All
+  * footnote numbering is english
+  * citation qoute numbers are in english
+  * math forlmulas
+
+2. KramDown
+  * abbr not supported
+  * citation and bibliography
+  * no support for metadata
+
+3. MultiMarkdown
+  * abbr not supported (L)
+  * kramdown id class style addition (H)
+  * template customization (M)
+  * comment block (L)
+  * fence code block (L)
+
+4. Maruku
+  * citation and bibliography
+
