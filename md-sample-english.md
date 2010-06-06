@@ -6,13 +6,13 @@ CSS:    mmd.css
 
 As I add increasing numbers of features to MultiMarkdown, I decided it was
 time to create a sample document to show them off. Many of the features are
-demonstrated in the [MultiMarkdown User's Guide][], but some are not.
+demonstrated in the [MultiMarkdown User's Guide][mmug], but some are not.
 
 Additionally, it's easy for those features to get lost within all of the
 technical documentation. This document is designed to *demonstrate*, not
 describe, most of the features of MMD.
 
-[MultiMarkdown User's Guide]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"
+[mmug]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"
 *[MMD]: MultiMarkdown 
 
 

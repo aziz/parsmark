@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-align: right; 
 }
-
+ul, ol { margin-right: 3em; margin-left: 0;  }
 ol li  { 
   list-style-type: arabic-indic;
   list-style-type: persian;
@@ -35,8 +35,10 @@ pre {
   text-align: left;
   direction: ltr;
   font-family: "courier new","DejaVu Sans Mono",monaco,courier;
+  font-weight: bold;
 }
 
 code {
   font-family: "courier new","DejaVu Sans Mono",monaco,courier;
+  font-weight: bold;
 }
