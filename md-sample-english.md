@@ -1,6 +1,6 @@
 Title:	MultiMarkdown Example
 Author:	Brandon Toone
-CSS:    mmd.css
+CSS:    style.css
 
 # Introduction #
 
