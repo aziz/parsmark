@@ -1,4 +1,4 @@
-CSS:    mmd.css
+CSS: stylesheets/mmd.css
 
 # BUGS: #
 
@@ -8,16 +8,15 @@ CSS:    mmd.css
   * math forlmulas
 
 2. KramDown
-  * abbr not supported
-  * citation and bibliography
-  * no support for metadata
+  * citation and bibliography (no way)
+  * no support for metadata (has templates)
 
 3. MultiMarkdown
-  * abbr not supported (L)
   * kramdown id class style addition (H)
   * template customization (M)
+  * abbr not supported (L)
   * comment block (L)
-  * fence code block (L)
+  * Fenced Code Blocks (L)
 
 4. Maruku
   * citation and bibliography

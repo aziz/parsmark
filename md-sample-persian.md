@@ -1,4 +1,4 @@
-CSS:    mmd-rtl.css
+CSS:    stylesheets/mmd-rtl.css
 Title:  ParsMark Example
 Author: Aziz A. Bargi
 

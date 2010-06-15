@@ -1,6 +1,6 @@
 Title:	MultiMarkdown Example
 Author:	Brandon Toone
-CSS:    style.css
+CSS: stylesheets/mmd.css
 
 # Introduction #
 
@@ -10,7 +10,7 @@ demonstrated in the [MultiMarkdown User's Guide][mmug], but some are not.
 
 Additionally, it's easy for those features to get lost within all of the
 technical documentation. This document is designed to *demonstrate*, not
-describe, most of the features of MMD.
+describe, most of the features of MMD this is fake text.
 
 [mmug]: http://fletcherpenney.net/mmd/users_guide/ "MultiMarkdown User's Guide"
 *[MMD]: MultiMarkdown 

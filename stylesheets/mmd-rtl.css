@@ -11,9 +11,9 @@ body {
   border:1px solid #ccc;
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#888888'); /* IE6, IE7 */
   -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#888888')"; /* IE8 */
-  -moz-box-shadow: 0 0 12px #888888; /* FF3.5+ */
-  -webkit-box-shadow: 0 0 12px #888888; /* Saf3+, Chrome */
-  box-shadow: 0 0 12px #888888; /* Standard. Opera 10.5, IE9 */
+  -moz-box-shadow: 0 0 12px #888888; 
+  -webkit-box-shadow: 0 0 12px #888888; 
+  box-shadow: 0 0 12px #888888; 
 }
 
 h1, h2, h3, h4, h5, h6 { 

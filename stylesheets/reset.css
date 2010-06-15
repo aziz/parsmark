@@ -1,0 +1,170 @@
+/* RESET */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+}
+
+body {
+    line-height:1.5;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* Addintional Rules */
+
+/* Wrapping Long URLs and Text Content with CSS. http://perishablepress.com/press/2010/06/01/wrapping-content/ */
+pre {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+}
+
+/* Remove it if you don't like it. http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/ */
+:focus { -moz-outline-style: none; outline:none; }
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+/* Remove annoying border on linked images. */
+a img { border: none; }
+
+/* Removing tap hilight on mobile safari */
+a:link{ -webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+/* always force a scrollbar in non-IE: http://css-tricks.com/eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar/ */
+html { overflow-y: scroll; }
+
+/* make buttons play nice in IE: http://www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button { width: auto; overflow: visible; }
+
+/* Needs to be separate from moz-selection https://developer.mozilla.org/En/CSS/::selection#Browser_compatibility */
+::-moz-selection { background: #B5D5FF; text-shadow: none; }
+::selection { background: #B5D5FF; text-shadow: none; }
+
+/* bicubic resizing for non-native sized IMG: http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+/* Remove resizing textarea feature in webkit */
+textarea { resize: none;}
+
+
+/* == EXTRA FEATURES == */
+
+/* for image replacement */
+.ir { display: block; text-indent: -999px; overflow: hidden; background-repeat: none; }
+
+/* Hide for both screenreaders and browsers */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders http://www.webaim.org/techniques/css/invisiblecontent/ */
+.visuallyhidden { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.invisible { visibility: hidden; }
+
+/* CSS BUG HACKS  */
+.clearfix { display: inline-block; display: block; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; }
